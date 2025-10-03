@@ -28,4 +28,13 @@
   --color-orange: #ff5e5e;
   --color-black-light: #171a21;
   --color-black-dark: #000000;
+  --text-shadow-link: 1px 1px 1px rgba(253, 253, 253, 0.3), 1px 2px 1px rgba(253, 253, 253, 0.3), 1px 3px 1px rgba(253, 253, 253, 0.3);
+}
+
+@layer components {
+  @media (hover: hover) {
+    .link-text-shadow:hover {
+      text-shadow: var(--text-shadow-link);
+    }
+  }
 }
