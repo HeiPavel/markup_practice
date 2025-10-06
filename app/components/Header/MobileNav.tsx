@@ -31,7 +31,7 @@ export function MobileNav() {
   }
 
   return (
-    <div className='block desktop:hidden'>
+    <div className='block laptop:hidden'>
       <BurgerMenu
         className={`${open ? 'hidden' : 'block'}`}
         onClick={() => setOpen(true)}

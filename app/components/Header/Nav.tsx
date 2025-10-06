@@ -17,13 +17,13 @@ const links: LinksType = {
 
 export function Nav({setOpen}: Props) {
   return (
-    <nav className='flex flex-col desktop:flex-row justify-center desktop:justify-normal desktop:gap-14'>
+    <nav className='flex flex-col laptop:flex-row justify-center laptop:justify-normal laptop:gap-14'>
       {
         Object.keys(links).map((linkTitle, index) => (
           <a
             key={index}
             href={`#${linkTitle !== 'about' ? linkTitle : ''}`}
-            className='py-8 desktop:py-0 capitalize font-jakarta font-bold text-lg text-white transition-all link-text-shadow'
+            className='py-8 laptop:py-0 capitalize font-jakarta font-bold text-lg text-white transition-all link-text-shadow'
             onClick={() => setOpen ? setOpen(false) : undefined}
           >
             {links[linkTitle as keyof LinksType]}
