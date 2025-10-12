@@ -8,7 +8,7 @@ import rightMan from '@/public/image/right_man.png'
 
 export function Hero() {
   return(
-    <div className='relative bg-blue-medium-dark fhd:before:h-[45px] fhd:before:w-full fhd:before:absolute fhd:before:bottom-0 fhd:before:bg-white'>
+    <section className='relative bg-blue-medium-dark fhd:before:h-[45px] fhd:before:w-full fhd:before:absolute fhd:before:bottom-0 fhd:before:bg-white'>
       <div className='box-container relative overflow-hidden bg-blue-medium-dark clip-path-hero'>
         <div className='px-4 flex gap-10 justify-center desktop:justify-between'>
           <HeroImage
@@ -37,6 +37,6 @@ export function Hero() {
           />
         </div>
       </div>
-    </div>
+    </section>
   )
 }
