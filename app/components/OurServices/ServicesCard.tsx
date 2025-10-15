@@ -1,4 +1,4 @@
-import { CardType } from './cardData'
+import { CardType } from '../Common/types'
 
 export function ServicesCard({Icon, title, description}: CardType) {
   return (

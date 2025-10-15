@@ -1,3 +1,4 @@
+import { CardType } from '../Common/types'
 import {ReactComponent as PlumbingIcon} from '@/public/icons/plumbing_icon.svg'
 import {ReactComponent as RoofIcon} from '@/public/icons/roof_icon.svg'
 import {ReactComponent as WallIcon} from '@/public/icons/wall_icon.svg'
@@ -5,12 +6,6 @@ import {ReactComponent as WoodIcon} from '@/public/icons/wood_icon.svg'
 import {ReactComponent as RepairIcon} from '@/public/icons/repair_icon.svg'
 import {ReactComponent as BathroomIcon} from '@/public/icons/bathroom_icon.svg'
 import {ReactComponent as DoorIcon} from '@/public/icons/door_icon.svg'
-
-export type CardType = {
-  Icon: React.FunctionComponent<React.SVGProps<SVGSVGElement>>
-  title: string
-  description: string
-}
 
 export const cardData: CardType[] = [
   {
