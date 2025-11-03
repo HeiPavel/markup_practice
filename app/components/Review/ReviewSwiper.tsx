@@ -67,7 +67,7 @@ export function ReviewSwiper({numberOfBullets}: {numberOfBullets: number}) {
           }
         </Swiper>
       </div>
-      <div className='mx-auto px-6 max-w-[400px] flex gap-8 justify-between tablet:justify-center items-center'>
+      <div className='mx-auto px-6 max-w-[400px] flex justify-between tablet:justify-center items-center'>
         <NavigationArrow
           isLeft={true}
           isDisabled={isBeginning}

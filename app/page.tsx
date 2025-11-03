@@ -4,6 +4,7 @@ import { Services } from './components/Services/Services'
 import { OurServices } from './components/OurServices/OurServices'
 import { Featured } from './components/Featured/Featured'
 import { Review } from './components/Review/Review'
+import { Banner } from './components/Banner/Banner'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <OurServices/>
       <Featured/>
       <Review/>
+      <Banner/>
     </>
   )
 }
