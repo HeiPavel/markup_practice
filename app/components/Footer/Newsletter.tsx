@@ -1,4 +1,6 @@
-import { Form } from "./Form"
+import { Form } from './Form'
+import { FormData } from './FormData'
+import { SubscribeConfirmation } from './SubscribeConfirmation'
 
 export function Newsletter() {
   return (
@@ -7,7 +9,10 @@ export function Newsletter() {
         <p className='text-2xl font-bold leading-8'>Stay Connected with Our Newsletter</p>
         <p className='mt-3 text-lg leading-7'>Subscribe to our newsletter to get more news, promo, or news services</p>
       </div>
-      <Form/>
+      <FormData>
+        <Form/>
+        <SubscribeConfirmation/>
+      </FormData>
     </div>
   )
 }
