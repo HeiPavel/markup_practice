@@ -5,6 +5,7 @@ import { OurServices } from './components/OurServices/OurServices'
 import { Featured } from './components/Featured/Featured'
 import { Review } from './components/Review/Review'
 import { Banner } from './components/Banner/Banner'
+import { Footer } from './components/Footer/Footer'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Featured/>
       <Review/>
       <Banner/>
+      <Footer/>
     </>
   )
 }
